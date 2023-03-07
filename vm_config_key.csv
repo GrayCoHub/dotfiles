@@ -1,0 +1,37 @@
+vm_config = { 
+    "dev_environment": "Windows 10"
+    "remote_host": "Azure Ubuntu 20.04 virtual machine named GrayVM"
+    "ssh_connection": "VS Code on Windows with remote SSH connection"
+    "packages": ["z shell", "Chezmoi", "oh-my-zsh", "NVM", "tldr"]
+    "package_install_order": ["z shell", "Chezmoi (installed with SNAP)", "oh-my-zsh", "NVM", "tldr"]
+    "remote_github_account": "GrayCoHub"
+    "dotfiles_repo_branches": ["main", "master"]
+    "user_name": "Gray", "dotfiles_manager": "Chezmoi"
+    "user_name": "Gray"
+    "home_directory_initialized_with": "Chezmoi"
+    "chezmoi_installation_method": "SNAP"
+    "chezmoi_path": "/snap/bin/chezmoi"
+    "chezmoi_data_dir": "/var/snap/chezmoi/current"
+    "chezmoi_config_dir": "/var/snap/chezmoi/current/.config/chezmoi"
+    "chezmoi_dotfiles_dir": "/var/snap/chezmoi/current/dotfiles"
+}
+
+vm_keys = { 
+    1: "dev_environment"
+    2: "remote_host"
+    3: "ssh_connection"
+    4: "packages"
+    5: "package_install_order"
+    6: "remote_github_account"
+    7: "dotfiles_repo_name"
+    8: "dotfiles_repo_branches"
+    9: "user_name"
+    10: "dotfiles_manager"
+    11: "home_directory_initialized_with"
+    12: "chezmoi_installation_method"
+    13: "chezmoi_path"
+    14: "chezmoi_data_dir"
+    15: "chezmoi_config_dir"
+    16: "chezmoi_dotfiles_dir"
+}
+
