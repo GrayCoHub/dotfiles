@@ -1,3 +1,4 @@
+# GS
 vm_config = { 
     "dev_environment": "Windows 10"
     "remote_host": "Azure Ubuntu 20.04 virtual machine named GrayVM"
